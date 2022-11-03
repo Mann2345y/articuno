@@ -1,0 +1,23 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.mainWrapper {
+  height: fit-content;
+  width: 500px;
+  padding: 50px;
+}
+.inputWrapper {
+  margin-top: 50px;
+}
+
+.inputWrapper label {
+  color: #1d72e7 !important;
+}
+.inputWrapper .MuiOutlinedInput-root:hover fieldset {
+  border-color: #1d72e7 !important;
+}
+.inputWrapper .Mui-focused fieldset {
+  border-color: #1d72e7 !important;
+}
